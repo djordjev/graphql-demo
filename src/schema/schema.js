@@ -1,4 +1,5 @@
-import graphql from 'graphql';
+// import graphql from 'graphql';
+const graphql = require('graphql');
 
 const {
   GraphQLString,
@@ -38,4 +39,4 @@ const schemaObject = new GraphQLSchema({
   query: RootQuery
 });
 
-export default schemaObject;
+module.exports = schemaObject;

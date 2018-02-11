@@ -1,7 +1,7 @@
-import expressGraphQL from 'express-graphql';
-import express from 'express';
-import winston from 'winston';
-import schema from './schema/schema';
+const expressGraphQL = require('express-graphql');
+const express = require('express');
+const winston = require('winston');
+const schema = require('./schema/schema');
 
 const server = express();
 
