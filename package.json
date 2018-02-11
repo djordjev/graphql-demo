@@ -20,6 +20,8 @@
   "homepage": "https://github.com/djordjev/graphql-demo#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.13.0",
     "winston": "^2.4.0"
   },
   "devDependencies": {
